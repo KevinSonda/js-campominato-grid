@@ -20,6 +20,6 @@ button.addEventListener('click', function () {
 
     // ciclo per creare le 100 caselle
     for (let i = 0; i < 100; i++){
-        
+     // chiamo la funzine per creare le caselle 
     }
 })
