@@ -12,3 +12,9 @@ function createSingleSquare(num) {
 
 //recupero il pulsante
 const button = document.getElementById('play');
+
+//assegno al pulsante l'evento click
+button.addEventListener('click', function () {
+    // recupero l'evento che dovra contenere la griglia dal dom
+    const grid = document.getElementById('grid');
+})
