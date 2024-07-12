@@ -9,3 +9,6 @@ function createSingleSquare(num) {
     // aggiungo l'evento click al quadrato
     return square;
 }
+
+//recupero il pulsante
+const button = document.getElementById('play');
