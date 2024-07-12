@@ -53,3 +53,7 @@ main h2 {
     border: 1px solid wheat ;
     background-color: darkblue;
 }
+
+.clicked {
+    background-color: blue;
+}
