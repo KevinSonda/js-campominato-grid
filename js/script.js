@@ -5,4 +5,7 @@ function createSingleSquare(num) {
 
     // aggiungo la classe square al div
     square.innerText = num + 1;
+
+    // aggiungo l'evento click al quadrato
+    return square;
 }
