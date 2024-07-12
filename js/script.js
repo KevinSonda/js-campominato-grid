@@ -4,9 +4,17 @@ function createSingleSquare(num) {
     const square = document.createElement('div');
 
     // aggiungo la classe square al div
+    square.classList.add('square');
+
+    // aggiungo il numero all'inerno del div
     square.innerText = num + 1;
 
     // aggiungo l'evento click al quadrato
+    square.addEventListener('click', function () {
+        console.log(this.innerText)
+    });
+
+    //restituisco il quadrato
     return square;
 }
 
@@ -21,5 +29,7 @@ button.addEventListener('click', function () {
     // ciclo per creare le 100 caselle
     for (let i = 0; i < 100; i++){
      // chiamo la funzine per creare le caselle 
+     let item = createSingleSquare(i)
+     grid.append(item);
     }
 })
